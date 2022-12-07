@@ -6,18 +6,18 @@ import { update,getClicksSelector } from 'redux/clicksSlice';
 
 
 export function App() {
-const dispatch = useDispatch();
-const numberOfClicks = useSelector(getClicksSelector)
+// const dispatch = useDispatch();
+// const numberOfClicks = useSelector(getClicksSelector)
 
 
   return (
     <>
-    <div>
+    {/* <div>
       <h1>Number Of Clicks: {numberOfClicks}</h1>
       <button type='button' onClick={()=> dispatch(update(5))}>ADD 5</button>
       <button type='button' onClick={()=> dispatch(update(10))}>ADD 15</button>
       <button type='button' onClick={()=> dispatch(update(20))}>ADD 20</button>
-     </div>
+     </div> */}
       {/* <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="login" element={<LoginPage />} />
