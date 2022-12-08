@@ -1,11 +1,11 @@
-import { Link, Outlet } from 'react-router-dom';
-import { AppBar } from './AppBar';
+// import { Link, Outlet } from 'react-router-dom';
+// import { AppBar } from './AppBar';
 
-export const Layout = () => {
-  return (
-    <div>
-      <AppBar />
-      <Outlet />
-    </div>
-  );
-};
+// export const Layout = () => {
+//   return (
+//     <div>
+//       <AppBar />
+//       <Outlet />
+//     </div>
+//   );
+// };
